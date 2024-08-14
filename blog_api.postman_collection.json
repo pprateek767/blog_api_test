@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "64747f61-a962-4272-bd59-d5f15590fd39",
+		"name": "blog_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "37685373"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api/posts/11",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"title\": \"this pst is my post new \",\n    \"content\": \"Lorem Ipsum is simply dummy text of the wegerer dhrtysef sdsafr\",\n    \"author\": \"Prateek Pandey\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost/api/posts/11"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api/posts/16",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"title\": \"this pst is my post new \",\n    \"content\": \"Lorem Ipsum is simply dummy text of the wegerer dhrtysef sdsafr\",\n    \"author\": \"Prateek Pandey\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost/api/posts/16"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api/posts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"title\": \"this pst is my post new \",\n    \"content\": \"Lorem Ipsum is simply dummy text of the wegerer dhrtysef sdsafr\",\n    \"author\": \"Prateek Pandey\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost/api/posts"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api/posts/10",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n     \"title\": \"this pst is my post\",\n    \"content\": \"Lorem Ipsum is simply dummy text of the wegerer dhrtysef sdsafr\",\n    \"author\": \"Prateek\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost/api/posts/10"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api/posts/10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost/api/posts/10"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/api/posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "localhost/api/posts"
+			},
+			"response": []
+		}
+	]
+}
