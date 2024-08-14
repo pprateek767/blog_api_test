@@ -45,15 +45,15 @@ Error Handling
 
 For Get All post 
 
-GET "http://localhost/api/posts"
+GET http://localhost/api/posts
 
 For get single post by id 
 
-GET "http://localhost/api/post/{id}"
+GET http://localhost/api/post/{id}
 
 For Create New
 
-POST "http://localhost/api/posts"
+POST http://localhost/api/posts
 
 data type JSON 
 {
@@ -63,9 +63,9 @@ data type JSON
 }
 
 For Update Post 
-PUT "http://localhost/api/posts/{id}"
+PUT http://localhost/api/posts/{id}
 
 
 For Delete A Post
 
-DELETE "http://localhost/api/posts/{id}"
+DELETE http://localhost/api/posts/{id}
